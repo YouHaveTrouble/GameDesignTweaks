@@ -1,0 +1,7 @@
+name: GameDesignTweaks
+version: '${project.version}'
+main: me.youhavetrouble.gamedesigntweaks.GameDesignTweaks
+api-version: 1.17
+authors: [ YouHaveTrouble ]
+description: Tweak some game design stuff
+website: youhavetrouble.me
