@@ -40,17 +40,14 @@ public class SecondWindListener implements Listener {
             return;
         }
         if (hpPercentage >= 50) {
-            event.setDamage(0.00001);
-            player.setHealth(Math.max(currentHealth - (damage * 0.8), 0));
+            event.setDamage(damage * 0.8);
             return;
         }
         if (hpPercentage >= 25) {
-            event.setDamage(0.00001);
-            player.setHealth(Math.max(currentHealth - (damage * 0.65), 0));
+            event.setDamage(damage * 0.65);
             return;
         }
-        event.setDamage(0.00001);
-        player.setHealth(Math.max(currentHealth - (damage * 0.5), 0));
+        event.setDamage(damage * 0.5);
     }
 
 }
